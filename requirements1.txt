@@ -1,9 +1,9 @@
 streamlit
-pandas
 numpy
+pandas
 statsmodels==0.14.1
+scipy
 matplotlib
 seaborn
-scipy
 plotly
 pillow

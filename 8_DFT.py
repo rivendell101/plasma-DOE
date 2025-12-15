@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-#import statsmodels.api as sm
-#from statsmodels.formula.api import ols
+import statsmodels.api as sm
+from statsmodels.formula.api import ols
 import matplotlib.pyplot as plt
 from itertools import product, combinations
 import seaborn as sns
@@ -832,5 +832,6 @@ elif selected_page == "Linear Regression (1)":
 
                 except Exception as e:
                     st.error(f"❌ Linear regression / ANOVA failed: {e}")
+
 
 
